@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QualiConsig - Portabilidade INSS</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Top bar redes sociais -->
+  <!-- Utility bar (header above) -->
+  <div class="utility-bar" aria-label="Contato e idioma">
+    <div class="container util-container">
+      <div class="util-left">
+        <span class="util-item">📞 (11) 3164-8020</span>
+        <span class="util-sep">|</span>
+        <span class="util-item">📍 Rua Antônio de Barros, 801 - Tatuapé</span>
+      </div>
+      <div class="util-right"> 
+        <span class="util-lang">pt-BR</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navegação -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Logotipo da Qualiconsig localizado em imagens/logo.png -->
+        <img src="imagens/logo.png" alt="Logo Qualiconsig" />
+      </div>
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="#home">Home</a>
+        <a href="#servicos">Empréstimos</a>
+        <a href="#empresa">Empresa</a>
+        <a href="#blog">Blog</a>
+        <a href="#trabalhe">Trabalhe conosco</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="search-wrap">
+        <input type="text" placeholder="Pesquisar..." />
+      </div>
+    </div>
+  </header>
+
+  <!-- Slider de Produtos -->
+  <section class="slider" id="home">
+    <div class="slides">
+      <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('assets/img/hero.jpg'); background-size:cover; background-position:center;">
+        <div class="overlay"></div>
+        <div class="slide-content container">
+          <h1>Portabilidade Do INSS</h1>
+          <p>Transfira seu Empréstimo INSS para a Qualiconsig com taxas reduzidas, prazos maiores e atendimento humano.</p>
+          <button class="btn">Saiba Mais</button>
+        </div>
+      </div>
+      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('assets/img/hero.jpg'); background-size:cover; background-position:center;">
+        <div class="overlay"></div>
+        <div class="slide-content container">
+          <h1>Condições Competitivas</h1>
+          <p>Compare taxas, prazos e condições de crédito com quem entende de crédito consignado.</p>
+          <button class="btn">Ver Opções</button>
+        </div>
+      </div>
+      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('assets/img/hero.jpg'); background-size:cover; background-position:center;">
+        <div class="overlay"></div>
+        <div class="slide-content container">
+          <h1>Conteúdo e Serviços</h1>
+          <p>Descubra conteúdos úteis e serviços digitais para facilitar o seu dia a dia.</p>
+          <button class="btn">Saiba Mais</button>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn prev" aria-label="Anterior" onclick="prevSlide()">❮</button>
+    <button class="slider-btn next" aria-label="Próximo" onclick="nextSlide()">❯</button>
+    <div class="dots" aria-label="Navegação de slides">
+      <span class="dot active" data-index="0" onclick="goToSlide(0)"></span>
+      <span class="dot" data-index="1" onclick="goToSlide(1)"></span>
+      <span class="dot" data-index="2" onclick="goToSlide(2)"></span>
+    </div>
+  </section>
+
+  <!-- Três cards rápidos -->
+  <section class="cards container" aria-label="Serviços rápidos">
+    <div class="card">
+      <div class="card-icon" aria-label="Simule empréstimo">💳</div>
+      <h3>Simule Seu Empréstimo</h3>
+      <p>Descubra agora o valor disponível para você em uma conta com as melhores condições do mercado.</p>
+      <a href="#" class="btn-outline">Saiba Mais</a>
+    </div>
+    <div class="card">
+      <div class="card-icon" aria-label="Conta digital">📱</div>
+      <h3>Crie sua Conta Digital</h3>
+      <p>Abra sua conta agora e plataforma em poucos minutos, sem burocracia e 100% digital.</p>
+      <a href="#" class="btn-outline">Saiba Mais</a>
+    </div>
+    <div class="card">
+      <div class="card-icon" aria-label="Consultor">🎧</div>
+      <h3>Fale com um Consultor</h3>
+      <p>Tire suas dúvidas com um especialista pronto para te atender de forma personalizada.</p>
+      <a href="#" class="btn-outline">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Por que escolher -->
+  <section class="why container" aria-label="Por que escolher">
+    <h2>Por que escolher a Qualiconsig?</h2>
+    <p class="lead">Soluções financeiras seguras, transparência e atendimento dedicado.</p>
+    <div class="why-grid">
+      <div class="why-item">
+        <span class="ico">💼</span>
+        <h4>Conveniência</h4>
+        <p>Processos simples e descomplicados.</p>
+      </div>
+      <div class="why-item">
+        <span class="ico">🔒</span>
+        <h4>Segurança</h4>
+        <p>Proteção de dados e confiabilidade.</p>
+      </div>
+      <div class="why-item">
+        <span class="ico">💬</span>
+        <h4>Suporte</h4>
+        <p>Assistência rápida e humana.</p>
+      </div>
+      <div class="why-item">
+        <span class="ico">⏱️</span>
+        <h4>Agilidade</h4>
+        <p>Respostas rápidas e soluções eficazes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Outros Serviços -->
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <h2>Outros Serviços</h2>
+      <div class="servicos-row">
+        <div class="ser-card">Consolidado</div>
+        <div class="ser-card">Pessoal</div>
+        <div class="ser-card">Conta Digital</div>
+        <div class="ser-card">FGTS</div>
+        <div class="ser-card">Cartão</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulador -->
+  <section class="simulador container" aria-labelledby="simulador-title">
+    <div class="sim-left">
+      <h2 id="simulador-title">Empréstimo para trabalhador CLT</h2>
+      <p>Simule seu empréstimo de forma rápida e sem compromisso. Descubra as melhores condições para o seu perfil com transparência.</p>
+    </div>
+    <div class="sim-right">
+      <div class="form-card">
+        <div class="form-title">SIMULE O SEU EMPRESTIMO</div>
+        <form onsubmit="return false;">
+          <label>CPF</label>
+          <input id="cpf" type="text" placeholder="000.000.000-00" />
+          <label>Celular</label>
+          <input id="celular" type="text" placeholder="(XX) XXXXX-XXXX" />
+          <button id="btnContinuar" type="button" class="btn btn-yellow">Continuar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section class="blog container" id="blog" aria-labelledby="blog-title">
+    <h2 id="blog-title">Nosso Blog</h2>
+    <div class="blog-grid">
+      <article class="blog-card">
+        <div class="thumb"></div>
+        <h3>Conteúdo financeiro e dicas</h3>
+        <p>Novidades, tendências e orientações sobre crédito e finanças pessoais.</p>
+      </article>
+      <article class="blog-card">
+        <div class="thumb"></div>
+        <h3>Planejamento de crédito</h3>
+        <p>Como planejar o seu crédito de forma consciente.</p>
+      </article>
+      <article class="blog-card">
+        <div class="thumb"></div>
+        <h3>Crédito consciente</h3>
+        <p>Boas práticas para manter a saúde financeira.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-grid container">
+      <div class="footer-brand">
+        <img src="imagens/logo-branco.png" alt="Logo Qualiconsig" />
+        <p class="brand-desc">Soluções financeiras seguras, com mais transparência, taxas reduzidas e atendimento humanizado. Trabalhamos com agilidade, transparência e foco no que realmente importa: o seu bem-estar financeiro.</p>
+        <div class="socials" aria-label="Redes sociais">
+          <a href="https://www.facebook.com/grupoqualiconsig" target="_blank" rel="noopener" aria-label="Facebook Qualiconsig"><span class="circle">f</span></a>
+          <a href="https://www.instagram.com/qualiconsig" target="_blank" rel="noopener" aria-label="Instagram Qualiconsig"><span class="circle">ig</span></a>
+          <a href="https://www.linkedin.com/company/qualiconsig" target="_blank" rel="noopener" aria-label="LinkedIn Qualiconsig"><span class="circle">in</span></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#servicos">Empréstimos</a></li>
+          <li><a href="#empresa">Empresa</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#trabalhe">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Termos e Condições</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Ouvidoria</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Ouvidoria</h4>
+        <ul>
+          <li>contato@qualiconsig.com.br</li>
+          <li>(11) 3164-8020</li>
+          <li>Rua Antônio de Barros, 801 - Tatuapé, SP</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>© 2026 Qualiconsig All Rights Reserved | 27.733.374/0002-53</span>
+      <span class="bottom-links"><a href="#">Termos e Condições</a> | <a href="#">Privacidade Política</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
